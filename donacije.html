@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Axolotl - Donacije</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-donations">
+    <div class="shell">
+        <header>
+            <h1>Purple Axolotl</h1>
+            <nav>
+                <a href="index.html">Domov</a>
+                <a href="Igre.html">Igre</a>
+                <a href="Člani.html">Člani</a>
+                <a class="active" href="donacije.html">Donacije</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="card center">
+                <h2>Podpri projekt</h2>
+                <div class="total">Donirano skupaj: <span id="total">0</span> EUR</div>
+
+                <div class="controls">
+                    <input type="number" id="donation" min="1" step="1" placeholder="Vnesi znesek EUR">
+                    <button type="button" id="donateBtn">Doniraj</button>
+                </div>
+
+                <p class="hint">Hvala za podporo skupnosti Purple Axolotl.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="donacije.js"></script>
+</body>
+</html>
